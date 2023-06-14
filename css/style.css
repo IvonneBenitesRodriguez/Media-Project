@@ -79,4 +79,16 @@ text-decoration: none;
     .nav-menu.active{
        left: 0;
     }
+
+  
+    .search input[type=text]{
+        width: 400px;
+        height: 35px;
+        border-radius: 25px;
+        border: 1px solid gray;
+    }
+    .search input[type=text]:placeholder-shown{
+        text-align: center;
+    }
+   
 }
